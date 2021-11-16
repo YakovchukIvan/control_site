@@ -1,0 +1,12 @@
+.My-profily {
+    color: #3D88B5;
+    font-size: 20px;
+    font-weight: 400;
+    list-style-type: none;
+}
+
+.My-profily>li:hover {
+    background-color: #E3F8FB;
+    color: #3E7AA4;
+    font-weight: 500;
+}
