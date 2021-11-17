@@ -1,12 +1,82 @@
-.My-profily {
-    color: #3D88B5;
+ .bg-primary-nav {
+    background-color: #0362A4;
+ }
+
+.My-profily, a {
+    color: #0680C1;
     font-size: 20px;
     font-weight: 400;
     list-style-type: none;
+    text-decoration: none;
+    
 }
 
 .My-profily>li:hover {
     background-color: #E3F8FB;
-    color: #3E7AA4;
+    color: #0680C1;
     font-weight: 500;
+}
+
+.My-profily>li>a:hover {
+    color: #0680C1;
+    font-weight: 500;
+}
+
+.badge {
+    display: inline !important;
+    padding: 0.35em 0.65em;
+    font-size: .75em;
+    font-weight: 700;
+    line-height: 1;
+    color: #fff;
+    background-color: #0680C1 !important;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 0.25rem;
+}
+
+hr {
+    margin: 0;
+    padding: o;
+}
+
+.online-user {
+    background-color: #05A4E8;
+    color: white;
+}
+
+.span-icon-chat {
+    margin-left: 55px !important;
+}
+
+.span-icon-chat2 {
+    margin-left: 105px !important;
+}
+
+.span-user-chat {
+    color: #0680C1;
+    font-weight: 700;
+}
+
+.message-arrow {
+    z-index: 2;
+    float: right;
+    font-size: 25px !important;
+    color: white;
+    width: 45px;
+    height: 45px;
+    background-color: #0362A4;
+    border-radius: 50px;
+    text-align: center;
+    vertical-align: middle !important;
+}
+
+h5 {
+    font-weight: 700;
+}
+
+.span-data {
+    font-size: 14px;
+    font-weight: 400;
 }
